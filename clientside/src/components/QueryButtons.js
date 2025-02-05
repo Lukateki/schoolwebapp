@@ -41,7 +41,6 @@ const QueryButtons = () => {
 
     return (
         <div style={{ marginLeft: '20px', maxWidth: '700px' }}>
-            <h1>Student Info Database</h1>
 
             {/* Tab Navigation */}
             <div style={{ marginBottom: '20px' }}>
