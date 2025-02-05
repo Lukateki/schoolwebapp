@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node app1.js",
+  "postinstall": "npm rebuild sqlite3"
+},
   "keywords": [],
   "author": "Yuhong Yan",
   "license": "ISC",
