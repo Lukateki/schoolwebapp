@@ -13,7 +13,7 @@ const QueryButtons = () => {
     const fetchData = async (endpoint, title, pageNumber = 1) => {
         try {
             console.log(`Fetching data from: ${endpoint}, Page: ${pageNumber}`);
-            const response = await axios.get(`http://localhost:3100/api/${endpoint}?page=${pageNumber}`);
+            const response = await axios.get(`https://schoolwebapp.onrender.com/api/${endpoint}?page=${pageNumber}`);
 
             let results = response.data;
 
