@@ -1,7 +1,7 @@
 import sequelize from '../database/database.js';
-import Department from './Department.js';
-import Course from './Course.js';
-import Student from './Student.js';
+import Department from './department.js';
+import Course from './course.js';
+import Student from './student.js';
 
 // Define associations
 Department.hasMany(Course, { foreignKey: 'department_id' });
