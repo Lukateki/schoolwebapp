@@ -8,7 +8,7 @@ const QueryByFullName = () => {
 
   const queryStudents = async () => {
     try {
-      const response = await axios.get(`http://localhost:3100/api/students_query_first_last`, {
+      const response = await axios.get(`https://schoolwebapp.onrender.com/api/students_query_first_last`, {
         params: { firstName, lastName },
       });
       setResults(response.data);
